@@ -16,22 +16,17 @@ MEDIA QUERIES
     justify-content: space-between;
     margin: 0;
   }
+  nav > div:hover > ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding-left: 0;
+  }
   .bar-option {
     display: block;
   }
   .first-part {
     display: none;
-  }
-  .website-title {
-    font-size: 28px;
-    color: #3a3a3a;
-  }
-  .first-part {
-    display: none;
-  }
-  .first-part:hover {
-    display: flex;
-    flex-direction: column;
   }
 
   /* Initial Information with thumbnail img */
