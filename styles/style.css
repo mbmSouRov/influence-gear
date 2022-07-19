@@ -2,9 +2,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
 }
 header {
   width: 100%;
+  /* background-color: whitesmoke; */
 }
 nav {
   display: flex;
@@ -26,6 +28,9 @@ i {
   margin-right: 34px;
 }
 
+main {
+  background-color: whitesmoke;
+}
 /* ------------------------ 
 Initial Info 
 ------------------------ */
@@ -37,9 +42,6 @@ Initial Info
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.thumbnail-texts {
-  /* width: 100%; */
 }
 .thumbnail-texts h1 {
   font-weight: 700;
@@ -58,15 +60,14 @@ Initial Info
   color: white;
   padding: 10px 0px 10px 24px;
 }
-.thumbnail-img {
-  /* width: 100%; */
-}
 .thumbnail-img img {
   height: 450px;
   width: 450px;
 }
 
-/* Sponsers */
+/* --------------------
+Sponsers
+-------------------- */
 .sponser-companies {
   display: flex;
   justify-content: space-between;
@@ -74,12 +75,94 @@ Initial Info
   margin-left: 165px;
   margin-right: 165px;
   margin-top: 60px;
+  margin-bottom: 0;
   border: 1px solid #c0ccda;
   border-left: 0;
   border-right: 0;
   height: 100px;
 }
-.company img {
-  /* width: 55px;
-  height: 31px; */
+
+/*-------------------- 
+Popular Collection Section
+-------------------- */
+.popular-collection {
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-top: 100px;
+  /* border: 1px solid black; */
+}
+.popular-collection h1 {
+  text-align: center;
+  color: #3a3a3a;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.collection {
+  background-color: white;
+  box-shadow: 1px 1px 1px rgb(177, 177, 177);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.collection img {
+  width: 250px;
+  height: 256px;
+  margin-bottom: 0;
+}
+.collection h4 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 0;
+}
+.price-dollar {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.ratings-rate i {
+  color: #fb8200;
+  margin: 0;
+}
+.ratings-rate span {
+  color: #787885;
+  font-weight: 700;
+}
+.extra-info {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #787885;
+}
+.additional-info {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.additional-info a {
+  color: #e02c6d;
+  text-decoration: none;
+}
+.additional-info i {
+  margin-right: 0;
+}
+
+/* Join Now Section */
+.join-now {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+.join-thumbnail img {
+  width: 350;
+  height: 250;
 }
