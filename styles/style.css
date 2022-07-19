@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville&family=Montserrat:wght@100&family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+span ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+span ul li,
+i {
+  text-decoration: none;
+  margin-right: 34px;
+}
+
+/* ------------------------ 
+Initial Info 
+------------------------ */
+.initial-info {
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.thumbnail-texts {
+  /* width: 100%; */
+}
+.thumbnail-texts h1 {
+  font-weight: 700;
+  font-size: 52px;
+}
+.thumbnail-texts p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.thumbnail-texts button {
+  border-radius: 20px;
+  background-color: #e02c6d;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  padding: 10px 0px 10px 24px;
+}
+.thumbnail-img {
+  /* width: 100%; */
+}
+.thumbnail-img img {
+  height: 450px;
+  width: 450px;
+}
+
+/* Sponsers */
+.sponser-companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-top: 60px;
+  border: 1px solid #c0ccda;
+  border-left: 0;
+  border-right: 0;
+  height: 100px;
+}
+.company img {
+  /* width: 55px;
+  height: 31px; */
+}
