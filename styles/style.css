@@ -15,14 +15,21 @@ nav {
   margin-left: 120px;
   margin-right: 120px;
   margin-top: 20px;
-  /* border: 1px solid black; */
 }
-span ul {
+.bar-option {
+  display: none;
+}
+.website-options {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.website-options ul {
   display: flex;
   align-items: center;
   list-style: none;
 }
-span ul li,
+.website-options ul li,
 i {
   text-decoration: none;
   margin-right: 34px;
@@ -104,6 +111,7 @@ Popular Collection Section
 }
 .collections {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
   row-gap: 30px;
